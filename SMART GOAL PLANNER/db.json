@@ -1,36 +1,36 @@
 {
-    "goals": [
-        {
-            "id": 1,
-            "name": "Aluta",
-            "targetAmount": "5000",
-            "savedAmount": "1000",
-            "category": "chilling",
-            "deadline": "2023-12-31"
-        },
-        {
-            "id": 2,
-            "name": "Travel",
-            "targetAmount": "2000",
-            "savedAmount": "500",
-            "category": "vacation",
-            "deadline": "2024-06-30"
-        },
-        {
-            "id": 3,
-            "name": "Education",
-            "targetAmount": "3000",
-            "savedAmount": "1500",
-            "category": "learning",
-            "deadline": "2024-12-31"
-        },
-        {
-            "id": 4,
-            "name": "Emergency Fund",
-            "targetAmount": "10000",
-            "savedAmount": "2000",
-            "category": "savings",
-            "deadline": "2025-01-01"
-        }
-    ]
+  "goals": [
+    {
+      "id": "1",
+      "name": "Aluta",
+      "targetAmount": "5000",
+      "savedAmount": "1000",
+      "category": "chilling",
+      "deadline": "2023-12-31"
+    },
+    {
+      "goal": "vibes",
+      "targetAmount": "2002",
+      "savedAmount": "500",
+      "deadline": "2024-06-04",
+      "category": "Other",
+      "id": "2"
+    },
+    {
+      "name": "Education",
+      "targetAmount": "3000",
+      "savedAmount": "1500",
+      "deadline": "2024-12-31",
+      "category": "Career",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Emergency Fund",
+      "targetAmount": "10000",
+      "savedAmount": "2000",
+      "category": "savings",
+      "deadline": "2025-01-01"
+    }
+  ]
 }

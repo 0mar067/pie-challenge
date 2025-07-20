@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './GoalForm.css';
 
 function GoalForm({ onSubmit, initialData = {}, buttonText = "Add Goal" }) {
-  const [goal, setGoal] = useState('');
+  const [name, setGoal] = useState('');
   const [targetAmount, setTargetAmount] = useState('');
   const [savedAmount, setSavedAmount] = useState('');
   const [deadline, setDeadline] = useState('');
@@ -10,7 +10,7 @@ function GoalForm({ onSubmit, initialData = {}, buttonText = "Add Goal" }) {
 
   useEffect(() => {
     if (initialData) { 
-      setGoal(initialData.goal || ''); 
+      setGoal(initialData.name || ''); 
       setTargetAmount(initialData.targetAmount || '');
       setSavedAmount(initialData.savedAmount || '');
       setDeadline(initialData.deadline || '');
@@ -20,19 +20,19 @@ function GoalForm({ onSubmit, initialData = {}, buttonText = "Add Goal" }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (goal && targetAmount && savedAmount && deadline && category) {
-      onSubmit({ goal, targetAmount, savedAmount, deadline, category });
+    if (name && targetAmount && savedAmount && deadline && category) {
+      onSubmit({ name, targetAmount, savedAmount, deadline, category });
     } else {
       alert('Please fill in all fields.');
     }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="goal-form">
       <input
         type="text"
         placeholder="Goal"
-        value={goal}
+        value={name}
         onChange={(e) => setGoal(e.target.value)}
         required
       />
