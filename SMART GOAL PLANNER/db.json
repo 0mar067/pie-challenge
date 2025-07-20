@@ -1,12 +1,12 @@
 {
   "goals": [
     {
-      "id": "1",
       "name": "Aluta",
       "targetAmount": "5000",
       "savedAmount": "1000",
-      "category": "chilling",
-      "deadline": "2023-12-31"
+      "deadline": "2023-12-31",
+      "category": "Career",
+      "id": "1"
     },
     {
       "goal": "vibes",
@@ -23,14 +23,6 @@
       "deadline": "2024-12-31",
       "category": "Career",
       "id": "3"
-    },
-    {
-      "id": "4",
-      "name": "Emergency Fund",
-      "targetAmount": "10000",
-      "savedAmount": "2000",
-      "category": "savings",
-      "deadline": "2025-01-01"
     }
   ]
 }
