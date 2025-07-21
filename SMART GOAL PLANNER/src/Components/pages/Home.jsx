@@ -30,7 +30,11 @@ function Home() {
       },
       body: JSON.stringify(updatedGoal),
     })
-      .then((response) => response.json())
+      .then((response) =>{
+        if (!response.ok) {
+          throw new Error('Failed to update goal');
+        }
+        response.json()})
       .then((data) => {
         setGoals(
           goals.map((goal) => (goal.id === goalId ? data : goal))
