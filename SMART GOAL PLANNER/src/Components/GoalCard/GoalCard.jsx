@@ -7,7 +7,7 @@ function GoalCard({ goal, onDelete }) {
 
   const remainingAmount = targetAmount - savedAmount;
   const progress = (savedAmount / targetAmount) * 100;
-  const isOverdue = new Date(deadline) < new Date();
+  const isOverdue = new Date(deadline) < new Date(); 
 
   const handleDelete = () => {
     fetch(`http://localhost:3001/goals/${id}`, {
