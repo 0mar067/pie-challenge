@@ -61,3 +61,11 @@ Serves the production build locally to preview.
 * [React Router](https_//reactrouter.com/) - For routing
 * [JSON Server](https_//github.com/typicode/json-server) - Mock REST API
 
+## Author
+
+Elnabs Eugine
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
