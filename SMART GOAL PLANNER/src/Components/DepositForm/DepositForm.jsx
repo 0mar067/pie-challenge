@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './DepositForm.css';
 
-function DepositForm({ goals, onDeposit }) {
+function DepositForm({ goals = [], onDeposit }) {
   const [selectedGoal, setSelectedGoal] = useState('');
   const [amount, setAmount] = useState('');
 
@@ -22,7 +22,7 @@ function DepositForm({ goals, onDeposit }) {
         required
       >
         <option value="">Select Goal</option>
-        {goals.map((goal) => (
+        {goals.filter(Boolean).map((goal) => (
           <option key={goal.id} value={goal.id}>
             {goal.name}
           </option>

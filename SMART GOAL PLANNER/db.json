@@ -3,7 +3,7 @@
     {
       "name": "Aluta",
       "targetAmount": "5000",
-      "savedAmount": "100022250005000",
+      "savedAmount": "0",
       "deadline": "2023-12-31",
       "category": "Career",
       "id": "1"
@@ -11,10 +11,16 @@
     {
       "name": "healt",
       "targetAmount": "2002",
-      "savedAmount": "500",
+      "savedAmount": "500599",
       "deadline": "2024-06-04",
       "category": "Health",
       "id": "2"
+    },
+    {
+      "id": "32df",
+      "name": "vibes",
+      "targetAmount": 500,
+      "savedAmount": 0
     }
   ]
 }
