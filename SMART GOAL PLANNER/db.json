@@ -3,26 +3,18 @@
     {
       "name": "Aluta",
       "targetAmount": "5000",
-      "savedAmount": "1000",
+      "savedAmount": "100022250005000",
       "deadline": "2023-12-31",
       "category": "Career",
       "id": "1"
     },
     {
-      "goal": "vibes",
+      "name": "healt",
       "targetAmount": "2002",
       "savedAmount": "500",
       "deadline": "2024-06-04",
-      "category": "Other",
+      "category": "Health",
       "id": "2"
-    },
-    {
-      "name": "Education",
-      "targetAmount": "3000",
-      "savedAmount": "15001000",
-      "deadline": "2024-12-31",
-      "category": "Career",
-      "id": "3"
     }
   ]
 }
